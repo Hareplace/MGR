@@ -1,0 +1,7 @@
+torch>=1.12
+numpy
+scipy
+tqdm
+pyyaml
+scikit-learn
+transformers
