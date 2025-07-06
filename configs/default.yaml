@@ -1,0 +1,11 @@
+hidden_dim: 768
+num_tokens_dict:
+  V: 196     # 14x14 patches for 224x224 images
+  A: 100     # assume audio = 100 frames
+  T: 77      # max text tokens
+alpha_u: 0.3
+alpha_f: 0.5
+keep_ratio: 0.3
+iterations: 2
+num_classes: 10
+epochs: 20
